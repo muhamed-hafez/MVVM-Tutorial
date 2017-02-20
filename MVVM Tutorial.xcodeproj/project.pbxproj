@@ -13,6 +13,8 @@
 		A1E795961E5B63DC00D0C761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E795941E5B63DC00D0C761 /* Main.storyboard */; };
 		A1E795981E5B63DC00D0C761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E795971E5B63DC00D0C761 /* Assets.xcassets */; };
 		A1E7959B1E5B63DC00D0C761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E795991E5B63DC00D0C761 /* LaunchScreen.storyboard */; };
+		A1E795A31E5B66D900D0C761 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E795A21E5B66D900D0C761 /* kitten.jpg */; };
+		A1E795A61E5B673A00D0C761 /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E795A51E5B673A00D0C761 /* RWDummySignInService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		A1E795971E5B63DC00D0C761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E7959A1E5B63DC00D0C761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1E7959C1E5B63DC00D0C761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E795A21E5B66D900D0C761 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		A1E795A41E5B673A00D0C761 /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
+		A1E795A51E5B673A00D0C761 /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		A1E7958A1E5B63DC00D0C761 /* MVVM Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A1E795A21E5B66D900D0C761 /* kitten.jpg */,
 				A1E7958E1E5B63DC00D0C761 /* AppDelegate.h */,
 				A1E7958F1E5B63DC00D0C761 /* AppDelegate.m */,
 				A1E795911E5B63DC00D0C761 /* ViewController.h */,
@@ -74,6 +80,8 @@
 		A1E7958B1E5B63DC00D0C761 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1E795A41E5B673A00D0C761 /* RWDummySignInService.h */,
+				A1E795A51E5B673A00D0C761 /* RWDummySignInService.m */,
 				A1E7958C1E5B63DC00D0C761 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E795A31E5B66D900D0C761 /* kitten.jpg in Resources */,
 				A1E7959B1E5B63DC00D0C761 /* LaunchScreen.storyboard in Resources */,
 				A1E795981E5B63DC00D0C761 /* Assets.xcassets in Resources */,
 				A1E795961E5B63DC00D0C761 /* Main.storyboard in Resources */,
@@ -153,6 +162,7 @@
 				A1E795931E5B63DC00D0C761 /* ViewController.m in Sources */,
 				A1E795901E5B63DC00D0C761 /* AppDelegate.m in Sources */,
 				A1E7958D1E5B63DC00D0C761 /* main.m in Sources */,
+				A1E795A61E5B673A00D0C761 /* RWDummySignInService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
